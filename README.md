@@ -27,7 +27,7 @@ Implement this Copy Course functionality for teachers, and also ensure that teac
 
 One simple way to provide feedback to the user while the copy operation is in progress would be to display the following on the Course index page.
 
-In Progress
+In Progress:
 ![in-progress](https://user-images.githubusercontent.com/112626/140476958-34e59883-6e12-4f88-b210-08718017eee7.png)
 
 Finished:

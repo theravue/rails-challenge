@@ -1,0 +1,17 @@
+common: &common
+  adapter: mysql2
+  encoding: utf8mb4
+  reconnect: false
+  pool: 5
+  host: <%= ENV.fetch('DB_HOST', 'localhost') %>
+  username: root
+  password: root
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *common
+  database: rails_challenge_dev
+
+test:
+  <<: *common
+  database: rails_challenge_test

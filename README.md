@@ -22,7 +22,6 @@ Teachers now want to be able to copy courses. Unfortunately, some courses are ve
 ## Your Challenge
 We've added a Copy Course button to the course page, but it doesn't currently do anything.
 
-
 Implement this Copy Course functionality for teachers, and also ensure that teachers are not left waiting while this potentially long operation is in progress. Teachers should somehow know when a copy operation is in progress and when it has completed.
 
 One simple way to provide feedback to the user while the copy operation is in progress would be to display the following on the Course index page.
